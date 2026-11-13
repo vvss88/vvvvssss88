@@ -3,8 +3,8 @@
 -- 注意：需要把脚本上传到网上（Pastebin / GitHub Raw 等），
 --       然后把网址填在下面引号里。
 -- =====================================================
-local scriptUrl = "把你的脚本网址填在这里"
-if scriptUrl ~= "把你的脚本网址填在这里" then
+local scriptUrl = "https://raw.githubusercontent.com/vvss88/vvvvssss88/refs/heads/main/vvss88twd.lua"
+if scriptUrl ~= "https://raw.githubusercontent.com/vvss88/vvvvssss88/refs/heads/main/vvss88twd.lua" then
     pcall(function()
         queue_on_teleport("loadstring(game:HttpGet('" .. scriptUrl .. "'))()")
     end)
